@@ -159,7 +159,7 @@ const StaffSideBar = () => {
         >
           <Item
             title="Dashboard"
-            path="/admindashboard"
+            path="/dashboard"
             colors={colors}
             icon={<DashboardOutlined />}
           />
@@ -184,20 +184,20 @@ const StaffSideBar = () => {
         >
            <Item
             title="My Profile"
-            path="/admindashboard/roomadd"
+            path="/dashboard/myprofile"
             colors={colors}
             icon={<PeopleAltOutlined />}
           />
 
           <Item
             title="View Jobs"
-            path="/admindashboard/reservations"
+            path="/dashboard/reservations"
             colors={colors}
             icon={<PeopleAltOutlined />}
           />
           <Item
             title="Apply Leave"
-            path="/admindashboard/showrooms"
+            path="/dashboard/showrooms"
             colors={colors}
             icon={<PeopleAltOutlined />}
           />

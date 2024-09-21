@@ -17,11 +17,13 @@ import Geography from "./geography";
 import Reservation from "./reservations";
 import Viewassignedjobs from "./viewjobassigned";
 import StaffSideBar from "./layout/staffsidebar";
+import MyProfile from "./Myprofile/MyProfile";
 
 export {
   Navbar,
   SideBar,
   StaffSideBar,
+  MyProfile,
   Dashboard,
   Team,
   Roomadd,
