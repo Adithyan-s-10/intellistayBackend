@@ -8,6 +8,9 @@ import {
   Reservation,
   Showroom,
   MyProfile,
+  Viewjobs,
+  Applyleave,
+  ViewLeaveStatus,
   Team,
   Invoices,
   Viewstaff,
@@ -32,6 +35,9 @@ const AppRouter = () => {
         <Route path="/dashboard" element={<App />}>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/dashboard/myprofile" element={<MyProfile />} />
+          <Route path="/dashboard/viewjobs" element={<Viewjobs />} />
+          <Route path="/dashboard/applyleave" element={<Applyleave />} />
+          <Route path="/dashboard/viewleavestatus" element={<ViewLeaveStatus />} />
           <Route path="/dashboard/roomadd" element={<Roomadd />} />
           <Route path="/dashboard/reservations" element={<Reservation />} />
           <Route path="/dashboard/showrooms" element={<Showroom />} />

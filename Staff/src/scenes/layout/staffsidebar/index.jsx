@@ -191,13 +191,19 @@ const StaffSideBar = () => {
 
           <Item
             title="View Jobs"
-            path="/dashboard/reservations"
+            path="/dashboard/viewjobs"
             colors={colors}
             icon={<PeopleAltOutlined />}
           />
           <Item
             title="Apply Leave"
-            path="/dashboard/showrooms"
+            path="/dashboard/applyleave"
+            colors={colors}
+            icon={<PeopleAltOutlined />}
+          />
+          <Item
+            title="View Leave Status"
+            path="/dashboard/viewleavestatus"
             colors={colors}
             icon={<PeopleAltOutlined />}
           />
